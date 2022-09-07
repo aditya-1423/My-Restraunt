@@ -39,7 +39,7 @@ html{
 /* Navigation Bar : Logo & Image */
 #logo {
     margin: 10px 34px;
-
+    transition: all 60050s ease-in-out;
 
 }
 
@@ -47,6 +47,14 @@ html{
     /* border-radius: 50%; */
     margin: 3px 6px;
     height: 59px;
+    
+
+
+}
+
+#logo:hover{
+    
+    transform: rotate(100000005000deg);
 
 }
 
