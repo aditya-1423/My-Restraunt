@@ -1,6 +1,7 @@
 /* Navigation */
 #navbar{
     flex-direction: column;
+    padding-bottom: 15px;
 
 }
 #navbar ul li a {
