@@ -97,7 +97,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 438px;
+    height: 433px;
     /* margin-bottom: 233px; */
     justify-content: center;
     align-items: center;
@@ -139,7 +139,7 @@ hr{
 }
 
 
-/* Services  Sectiom*/
+/* Services  Section*/
 #services {
     margin: 34px;
     display: flex;
@@ -149,11 +149,24 @@ hr{
 #services .box {
     border: 2px solid rgb(0, 0, 0);
     padding: 34px;
-    box-shadow: 3px 3px 3px red;
+    box-shadow: 3px 3px 4px red;
     margin: 3px 6px;
     border-radius: 23px;
     background-color: rgb(224, 221, 221);
 
+}
+#chh{
+    color: white;
+    text-shadow: 2px 2px 3px red,2px 2px 4px white;
+}
+#ch{
+    color: white;
+    text-shadow: 2px 2px 3px red,2px 2px 4px white;
+}
+
+#chhh{
+    color: white;
+    text-shadow: 2px 2px 3px blue,2px 2px 4px white ;
 }
 
 #services .box img {
@@ -168,6 +181,16 @@ hr{
 
 }
 
+#service-container::before{
+    content: "";
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 562px;
+    z-index: -2;
+    opacity: 1;
+}
+
 
 
 /* Client Section */
@@ -176,19 +199,20 @@ hr{
     position: relative;
     z-index: -1;
     /* height: 344px; */
-    
 }
+
+    
 
 #client-section::before{
 content: "";
 position: absolute;
-background: url("img/bg4.jpg") no-repeat center  center/cover;
+background: url("img/bg7.jpg") no-repeat center  center/cover;
 width: 100%;
 height: 100%;
 z-index: -2;
 top: 0;
 left: 0;
-opacity: 0.5;
+opacity: 1;
 }
 
 
@@ -211,17 +235,19 @@ opacity: 0.5;
 /* contact section */
 
 #contact{
+
     position: relative;
-    height: 300px;
+    height: 340px;
 }
 #contact::before{
+
     content:"";
     position: absolute;
     width: 100%;
-    height: 37rem;
+    height: 39rem;
     z-index: -1;
     opacity: 0.9;
-    background: url("img/contact\ us.jpg") no-repeat center  center/cover;
+    background: url("img/bg6.jpg") no-repeat center  center/cover;
 }
 #contact-box{
     display: flex;
@@ -235,11 +261,16 @@ opacity: 0.5;
 }
 
 #contact-box label{
+    color: white;
     font-size: 1.3rem;
 }
 
 #contact-box input,
 #contact-box textarea {
+    border: 2px solid black;
+    background-color: black;
+    color: grey;
+    box-shadow: 2px 2px 4px whitesmoke ,2px 2px 5px blue;
     width: 100%;
     border-radius: 9px;
     font-size: 1.1rem;
