@@ -10,15 +10,14 @@
     padding-bottom: 15px;
 }
 /* Home */
-
+/* Home */
 #home{
-    height: 248px;
+    height: 225px;
     padding: 3px 29px;
     padding-bottom: 8px;
 }
-
 #home::before{
-    height: 385px;
+    height: 360px;
 }
 #home p{
     font-size: 13px;
@@ -28,33 +27,24 @@
 #services{
 flex-direction: column;
 }
-
 #services .box  {
     padding: 29px 1px;
 margin: 4px -16px;
 }
-#service-container::before {
-height:101.5rem;
-}
-
 /* Clients section */
 #clients{
 flex-wrap: wrap;    
-
 }
 #clients img {
 width: 110px;
 padding: 0px 30px;
 height: auto;
-}
-/* Contact us  */
+}/* Contact us  */
 #contact-box form{
     width: 80%;
 }
 /* Footer  */
-
 /* Utility */
-
 .h-primary{
     font-size: 20px;
 }
