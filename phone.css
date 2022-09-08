@@ -12,13 +12,13 @@
 /* Home */
 
 #home{
-    height: 269px;
+    height: 248px;
     padding: 3px 29px;
     padding-bottom: 8px;
 }
 
 #home::before{
-    height: 402px;
+    height: 385px;
 }
 #home p{
     font-size: 13px;
